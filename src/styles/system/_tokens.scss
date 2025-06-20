@@ -1,0 +1,105 @@
+// System tokens
+$sys-color-primary: #222;
+$sys-color-secondary: #6b6b6b;
+$sys-color-accent: #2d2d2d;
+$sys-color-background: #fff;
+$sys-color-card: #f9f9fb;
+$sys-color-cta: #222;
+$sys-color-cta-text: #fff;
+
+// System border colors
+$sys-color-border-1: #c9c9c9;
+$sys-color-border-2: #5c5c5c;
+$sys-color-border-accent-1: #066afe;
+$sys-color-border-accent-2: #0250d9;
+$sys-color-border-accent-3: #022ac0;
+$sys-color-border-disabled-1: #c9c9c9;
+$sys-color-border-error-1: #b60554;
+$sys-color-border-error-2: #8a033e;
+$sys-color-border-inverse-1: #f3f3f3;
+$sys-color-border-inverse-2: #032d60;
+$sys-color-border-success-1: #056764;
+$sys-color-border-success-2: #056764;
+$sys-color-border-warning-1: #dd7a01;
+
+// System button state colors
+$sys-color-button-bg-default: #222222;
+$sys-color-button-bg-hover: #555555;
+$sys-color-button-bg-pressed: #000000;
+$sys-color-button-bg-disabled: #b0b0b0;
+$sys-color-button-text-default: #ffffff;
+$sys-color-button-text-hover: #ffffff;
+$sys-color-button-text-pressed: #ffffff;
+$sys-color-button-text-disabled: #ffffff;
+
+// System spacing scale (in rem)
+$sys-spacing-1: 0.25rem;
+$sys-spacing-2: 0.5rem;
+$sys-spacing-3: 0.75rem;
+$sys-spacing-4: 1rem;
+$sys-spacing-5: 1.5rem;
+$sys-spacing-6: 2rem;
+$sys-spacing-7: 2.5rem;
+$sys-spacing-8: 3rem;
+$sys-spacing-9: 3.5rem;
+$sys-spacing-10: 4rem;
+$sys-spacing-11: 4.5rem;
+$sys-spacing-12: 5rem;
+
+// System sizing scale (in rem)
+$sys-size-1: 0.125rem;
+$sys-size-2: 0.25rem;
+$sys-size-3: 0.5rem;
+$sys-size-4: 0.75rem;
+$sys-size-5: 1rem;
+$sys-size-6: 1.25rem;
+$sys-size-7: 1.5rem;
+$sys-size-8: 1.75rem;
+$sys-size-9: 2rem;
+$sys-size-10: 3rem;
+$sys-size-11: 4rem;
+$sys-size-12: 5rem;
+$sys-size-13: 10rem;
+$sys-size-14: 15rem;
+$sys-size-15: 20rem;
+$sys-size-16: 30rem;
+
+// System shadow
+$sys-shadow-card: 0 2px 8px 0 rgba(0, 0, 0, 0.06);
+
+// System font
+$sys-font-family: "Inter", Arial, sans-serif;
+$sys-font-weight-regular: 400;
+$sys-font-weight-medium: 500;
+$sys-font-weight-bold: 600;
+
+// System transition
+$sys-transition-base: all 0.2s ease;
+
+// System border widths
+$sys-border-width-1: 1px;
+$sys-border-width-2: 2px;
+$sys-border-width-3: 3px;
+$sys-border-width-4: 4px;
+
+// System border radius
+$sys-radius-border-1: 2px;
+$sys-radius-border-2: 6px;
+$sys-radius-border-3: 10px;
+$sys-radius-border-4: 16px;
+$sys-radius-border-circle: 50%;
+$sys-radius-border-pill: 9999px;
+
+// System shadow tokens
+$sys-shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.08),
+  0 1.5px 6px 0 rgba(0, 0, 0, 0.04);
+$sys-shadow-2: 0 2px 6px 0 rgba(0, 0, 0, 0.1), 0 3px 12px 0 rgba(0, 0, 0, 0.06);
+$sys-shadow-3: 0 4px 12px 0 rgba(0, 0, 0, 0.12),
+  0 6px 24px 0 rgba(0, 0, 0, 0.08);
+$sys-shadow-4: 0 8px 24px 0 rgba(0, 0, 0, 0.14),
+  0 12px 48px 0 rgba(0, 0, 0, 0.1);
+
+// System icon style tokens
+$sys-icon-size: 16px;
+$sys-icon-vertical-align: middle;
+$sys-icon-horizontal-align: center;

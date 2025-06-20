@@ -1,0 +1,15 @@
+@import "../styles/system/_tokens.scss";
+@import "../styles/components/_tokens.scss";
+
+.storybook-card {
+  background: $comp-card-bg;
+  color: $comp-card-text;
+  font-family: $sys-font-family;
+  border: $comp-card-border-width solid $comp-card-border;
+  border-radius: $comp-card-radius;
+  box-shadow: $comp-card-shadow;
+  padding: $comp-card-padding;
+  transition: $comp-card-transition;
+  min-width: $sys-size-9;
+  min-height: $sys-size-5;
+}

@@ -1,0 +1,49 @@
+@import "../system/_tokens.scss";
+
+// Component tokens
+$comp-card-bg: $sys-color-card;
+$comp-card-text: $sys-color-primary;
+$comp-card-border: $sys-color-border-1;
+$comp-card-shadow: $sys-shadow-card;
+$comp-card-radius: $sys-radius-border-2;
+$comp-card-padding: $sys-spacing-8;
+$comp-card-border-width: $sys-border-width-1;
+$comp-card-border-style: solid;
+$comp-card-transition: $sys-transition-base;
+
+$comp-button-bg-default: $sys-color-button-bg-default;
+$comp-button-bg-hover: $sys-color-button-bg-hover;
+$comp-button-bg-pressed: $sys-color-button-bg-pressed;
+$comp-button-bg-disabled: $sys-color-button-bg-disabled;
+$comp-button-text-default: $sys-color-button-text-default;
+$comp-button-text-hover: $sys-color-button-text-hover;
+$comp-button-text-pressed: $sys-color-button-text-pressed;
+$comp-button-text-disabled: $sys-color-button-text-disabled;
+$comp-button-border-width: $sys-border-width-1;
+$comp-button-border-style: solid;
+$comp-button-border: $sys-color-border-1;
+$comp-button-border-radius: $sys-radius-border-1;
+$comp-button-padding-vertical: $sys-spacing-4;
+$comp-button-padding-horizontal: $sys-spacing-6;
+$comp-button-font-weight: $sys-font-weight-medium;
+$comp-button-font-size: 17px;
+$comp-button-transition: $sys-transition-base;
+$comp-button-focus-ring: 0 0 0 2px #005fcc;
+$comp-button-outline: 2px solid #005fcc;
+$comp-button-cursor-default: pointer;
+$comp-button-cursor-disabled: not-allowed;
+$comp-button-opacity-disabled: 0.7;
+
+$comp-avatar-bg: $sys-color-primary;
+$comp-avatar-text: #fff;
+$comp-avatar-radius: $sys-radius-border-circle;
+$comp-avatar-font-weight: $sys-font-weight-bold;
+$comp-avatar-font-family: $sys-font-family;
+$comp-avatar-size-xs: 20px;
+$comp-avatar-size-sm: 24px;
+$comp-avatar-size-md: 32px;
+$comp-avatar-size-lg: 48px;
+$comp-avatar-font-size-xs: 10px;
+$comp-avatar-font-size-sm: 12px;
+$comp-avatar-font-size-md: 16px;
+$comp-avatar-font-size-lg: 20px;

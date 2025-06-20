@@ -1,0 +1,34 @@
+@import "../styles/components/_tokens.scss";
+
+.storybook-avatar {
+  background: $comp-avatar-bg;
+  color: $comp-avatar-text;
+  border-radius: $comp-avatar-radius;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: $comp-avatar-font-weight;
+  font-family: $comp-avatar-font-family;
+  user-select: none;
+}
+
+.storybook-avatar--xs {
+  width: $comp-avatar-size-xs;
+  height: $comp-avatar-size-xs;
+  font-size: $comp-avatar-font-size-xs;
+}
+.storybook-avatar--sm {
+  width: $comp-avatar-size-sm;
+  height: $comp-avatar-size-sm;
+  font-size: $comp-avatar-font-size-sm;
+}
+.storybook-avatar--md {
+  width: $comp-avatar-size-md;
+  height: $comp-avatar-size-md;
+  font-size: $comp-avatar-font-size-md;
+}
+.storybook-avatar--lg {
+  width: $comp-avatar-size-lg;
+  height: $comp-avatar-size-lg;
+  font-size: $comp-avatar-font-size-lg;
+}

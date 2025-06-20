@@ -1,0 +1,63 @@
+@import "../styles/system/_tokens.scss";
+@import "../styles/components/_tokens.scss";
+
+.storybook-button {
+  display: inline-block;
+  cursor: pointer;
+  border: $comp-button-border-width $comp-button-border-style
+    $comp-button-border;
+  border-radius: $comp-button-border-radius;
+  font-weight: $comp-button-font-weight;
+  line-height: 1;
+  font-family: $sys-font-family;
+  font-size: $comp-button-font-size;
+  padding: $comp-button-padding-vertical $comp-button-padding-horizontal;
+  background-color: $comp-button-bg-default;
+  color: $comp-button-text-default;
+  transition: $comp-button-transition;
+}
+
+.storybook-button:disabled,
+.storybook-button--disabled {
+  background-color: $comp-button-bg-disabled;
+  color: $comp-button-text-disabled;
+  cursor: $comp-button-cursor-disabled;
+  opacity: $comp-button-opacity-disabled;
+}
+
+.storybook-button:not(:disabled):active,
+.storybook-button--primary:active {
+  background-color: $comp-button-bg-pressed;
+  color: $comp-button-text-pressed;
+}
+
+.storybook-button:not(:disabled):hover,
+.storybook-button--primary:hover {
+  background-color: $comp-button-bg-hover;
+  color: $comp-button-text-hover;
+}
+
+.storybook-button--secondary {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  background-color: transparent;
+  color: $sys-color-primary;
+}
+.storybook-button--small {
+  padding: 10px 16px;
+  font-size: 12px;
+}
+.storybook-button--medium {
+  padding: 11px 20px;
+  font-size: 14px;
+}
+.storybook-button--large {
+  padding: 12px 24px;
+  font-size: 16px;
+}
+
+.storybook-button--dual-state {
+  min-width: 12rem; // Use a token if you want, e.g. $sys-spacing-10 or $sys-size-10
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
