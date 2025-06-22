@@ -1,0 +1,85 @@
+@import "../styles/components/_tokens.scss";
+
+.storybook-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: $comp-badge-min-width;
+  background: $comp-badge-bg;
+  color: $comp-badge-text;
+  border-radius: $comp-badge-radius;
+  padding: $comp-badge-padding-y $comp-badge-padding-x;
+  font-family: $sys-font-family;
+  font-size: 14px;
+  font-weight: 500;
+  gap: 0.5em;
+}
+
+.storybook-badge__icon {
+  color: $comp-badge-icon-color;
+  display: flex;
+  align-items: center;
+  vertical-align: $comp-badge-icon-vertical-align;
+  font-size: 1em;
+}
+
+.storybook-badge--light {
+  background: $comp-badge-bg-light;
+  color: $comp-badge-text-light;
+}
+
+.storybook-badge--info {
+  background: $comp-badge-bg-info;
+  color: $comp-badge-text-info;
+}
+
+.storybook-badge--info .storybook-badge__icon {
+  color: $comp-badge-text-info;
+}
+
+.storybook-badge--success {
+  background: $comp-badge-bg-success;
+  color: $comp-badge-text-success;
+}
+
+.storybook-badge--success .storybook-badge__icon {
+  color: $comp-badge-text-success;
+}
+
+.storybook-badge--error {
+  background: $comp-badge-bg-error;
+  color: $comp-badge-text-error;
+}
+
+.storybook-badge--error .storybook-badge__icon {
+  color: $comp-badge-text-error;
+}
+
+.storybook-badge--warning {
+  background: $comp-badge-bg-warning;
+  color: $comp-badge-text-warning;
+}
+
+.storybook-badge--warning .storybook-badge__icon {
+  color: $comp-badge-text-warning;
+}
+
+// Ensure icon color always matches text color for each variant
+.storybook-badge--base .storybook-badge__icon {
+  color: $comp-badge-text;
+}
+.storybook-badge--light .storybook-badge__icon {
+  color: $comp-badge-text-light;
+}
+.storybook-badge--info .storybook-badge__icon {
+  color: $comp-badge-text-info;
+}
+.storybook-badge--success .storybook-badge__icon {
+  color: $comp-badge-text-success;
+}
+.storybook-badge--error .storybook-badge__icon {
+  color: $comp-badge-text-error;
+}
+.storybook-badge--warning .storybook-badge__icon {
+  color: $comp-badge-text-warning;
+}
